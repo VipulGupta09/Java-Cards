@@ -1,0 +1,44 @@
+<h2 align="center"><font><strong> Your library status is...</strong></font></h2>
+						<table align="center" cellpadding="500" cellspacing="50" border="1">
+						<tr>
+						</tr>
+						<tr bgcolor="#A52A2A">
+						<td><b>stu_id</b></td>
+						<td><b>book_id</b></td>
+						<td><b>doi</b></td>
+						</tr>
+						
+						
+						
+						
+						
+						<h2 align="center"><font><strong> Your Library status is...</strong></font></h2>
+						<div class="datagrid">
+							<table>
+								<thead>
+									<tr>
+										<th>stu_id</th>
+										<th>amount</th>
+										<th>Date Of Issue</th>
+									</tr>
+								</thead>
+								
+								
+								
+								
+								<tbody>
+										<tr>
+											<td><%=resultSet1.getString("stu_id")%></td>
+											<td><%=resultSet1.getString("book_id")%></td>
+											<td><%=resultSet1.getString("doi")%></td>
+										</tr>
+									</tbody>
+									
+									
+									
+									<tr bgcolor="#DEB887">
+									
+									<td><%=resultSet.getString("stu_id")%></td>
+									<td><%=resultSet.getString("book_id")%></td>
+									<td><%=resultSet.getString("doi")%></td>
+									
